@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+:root {
+    --yellow-color: #FDE68A;
+    --light-yellow-color:#FFFBEB;
+    --gray-color: #E5E7EB;
+}
+
+body{
+    font-family: 'Merriweather', serif;
+    margin: 0%;
+}
+
+.navigation {
+    border: black .1rem solid;
+    padding: 1.52rem;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 1.05rem;
+    background-color: var(--yellow-color);
+}
+
+.logo {
+    display: inline;
+    font-family: 'Architects Daughter', cursive;
+    text-decoration: underline;
+    text-align: left;
+}
+.logo h1 {
+    margin: 0px;
+
+    font-size: 2rem;
+}
+
+.non-bullet li, ul {
+    list-style: none;
+    display: inline;
+    padding-inline-start: 0px;
+    padding: 0rem 2rem;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
