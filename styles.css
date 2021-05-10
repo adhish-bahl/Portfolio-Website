@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 :root {
-    --yellow-color: #FDE68A;
+    --yellow-color: #A7F3D0;
     --light-yellow-color:#FFFBEB;
-    --gray-color: #E5E7EB;
+    --gray-color: #EFF6FF;
 }
 
 body{
@@ -12,11 +12,11 @@ body{
     margin: 0%;
 }
 
-.navigation {
+.navigation, .footer {
     border: black .1rem solid;
     padding: 1.52rem;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
     text-align: right;
     font-weight: bolder;
     font-size: 1.05rem;
@@ -29,9 +29,9 @@ body{
     text-decoration: underline;
     text-align: left;
 }
+
 .logo h1 {
     margin: 0px;
-
     font-size: 2rem;
 }
 
@@ -39,10 +39,60 @@ body{
     list-style: none;
     display: inline;
     padding-inline-start: 0px;
-    padding: 0rem 2rem;
+    padding: 0rem 2%;
 }
 
-li a {
+a {
     text-decoration: none;
     color: black;
+}
+
+.active {
+    border: black solid 1px;
+    padding: 10px;
+    border-radius: 3rem;
+}
+
+.container {
+    display: flex;
+    /* border: 1px black solid; */
+}
+
+section, footer {
+    /* margin: 3rem 0rem; */
+    padding: 3rem 25%;
+    text-align: center;
+    /* border: solid 1px black; */
+}
+
+.profile-photo {
+    width: 18rem;
+    border-radius: 20%;
+}
+
+.even {
+    background-color: var(--gray-color)
+}
+
+.footer {
+    /* background-color: var(--yellow-color); */
+    text-align: center;
+    border-radius: 1rem 1rem 0rem 0rem;
+    margin-bottom: 0px;
+}
+
+.social-media-links li a {
+    width: 10px;
+}
+
+.tech {
+    padding: 1px;
+}
+
+.skill {
+    border: black solid 1px;
+    padding: 10px;
+    border-radius: 3rem;
+    margin: 5px;
+    /* margin: 5px 5px 5px 5px;     */
 }
