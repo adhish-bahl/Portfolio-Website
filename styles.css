@@ -3,7 +3,7 @@
 
 :root {
     --yellow-color: #A7F3D0;
-    --light-yellow-color:#FFFBEB;
+    --light-yellow-color:#F7FEE7;
     --gray-color: #EFF6FF;
 }
 
@@ -13,7 +13,7 @@ body{
 }
 
 .navigation, .footer {
-    border: black .1rem solid;
+    /* border: black .1rem solid; */
     padding: 1.52rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
@@ -89,10 +89,15 @@ section, footer {
     padding: 1px;
 }
 
-.skill {
+.skill li{
     border: black solid 1px;
-    padding: 10px;
+    padding: .4rem;
     border-radius: 3rem;
-    margin: 5px;
-    /* margin: 5px 5px 5px 5px;     */
+    margin: .5rem;
+    background-color: var(--yellow-color);
+}
+
+.skill {
+    display: inline-block;
+    margin: .8rem .1rem;
 }
