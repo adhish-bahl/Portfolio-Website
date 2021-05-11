@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 :root {
-    --yellow-color: #A7F3D0;
-    --light-yellow-color:#F7FEE7;
+    --lime-color: #A7F3D0;
     --gray-color: #EFF6FF;
 }
 
@@ -20,7 +19,7 @@ body{
     text-align: right;
     font-weight: bolder;
     font-size: 1.05rem;
-    background-color: var(--yellow-color);
+    background-color: var(--lime-color);
 }
 
 .logo {
@@ -75,7 +74,7 @@ section, footer {
 }
 
 .footer {
-    /* background-color: var(--yellow-color); */
+    /* background-color: var(--lime-color); */
     text-align: center;
     border-radius: 1rem 1rem 0rem 0rem;
     margin-bottom: 0px;
@@ -92,7 +91,7 @@ section, footer {
     padding: .4rem;
     border-radius: 3rem;
     margin: .5rem;
-    background-color: var(--yellow-color);
+    background-color: var(--lime-color);
 }
 
 .skill {
@@ -105,3 +104,8 @@ section, footer {
     display: inline-block;
 }
 
+.link-in-between {
+    display: inline-block;
+    text-decoration: underline;
+    margin: .5rem;
+}
