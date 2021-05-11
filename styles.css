@@ -100,6 +100,8 @@ section, footer {
     margin: .8rem .1rem;
 }
 
-.link:hover{
-    transform: scale(5px);
+.hover:hover {
+    transform: scale(1.04);
+    display: inline-block;
 }
+
