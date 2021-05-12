@@ -118,13 +118,13 @@ section, footer {
 }
 
 .project-link {
-    margin: 0rem 1rem;
+    margin: .5rem 1rem;
     background-color: var(--lime-color);
     display: inline-block;
 }
 
 .code-link {
-    margin: 0rem 1rem;
+    margin: .5rem 1rem;
     color: var(--dark-green-color);
     background-color: white;
     display: inline-block;
