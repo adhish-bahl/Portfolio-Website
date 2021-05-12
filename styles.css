@@ -4,6 +4,7 @@
 :root {
     --lime-color: #A7F3D0;
     --gray-color: #EFF6FF;
+    --dark-green-color: #10B981;
 }
 
 body{
@@ -108,4 +109,23 @@ section, footer {
     display: inline-block;
     text-decoration: underline;
     margin: .5rem;
+}
+
+.project-name {
+    /* display: inline-block; */
+    text-align: left;
+    display: block;
+}
+
+.project-link {
+    margin: 0rem 1rem;
+    background-color: var(--lime-color);
+    display: inline-block;
+}
+
+.code-link {
+    margin: 0rem 1rem;
+    color: var(--dark-green-color);
+    background-color: white;
+    display: inline-block;
 }
