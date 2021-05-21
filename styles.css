@@ -68,6 +68,8 @@ section, footer {
 .profile-photo {
     width: 18rem;
     border-radius: 20%;
+    clip-path: circle(40.0% at 50% 50%);
+    overflow: ;
 }
 
 .even {
@@ -128,4 +130,8 @@ section, footer {
     color: var(--dark-green-color);
     background-color: white;
     display: inline-block;
+}
+
+.info {
+    overflow: hidden;
 }
