@@ -148,7 +148,7 @@ section, footer {
     .photo, .profile-photo {
         /* align-self: center; */
         /* overflow: hidden; */
-        margin-left: 5%;
+        /* margin-left: 5%; */
         width: 13rem;
     }
 }
