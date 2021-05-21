@@ -53,10 +53,6 @@ a {
     border-radius: 3rem;
 }
 
-.container {
-    display: flex;
-    /* border: 1px black solid; */
-}
 
 section, footer {
     /* margin: 3rem 0rem; */
@@ -66,10 +62,19 @@ section, footer {
 }
 
 .profile-photo {
-    width: 18rem;
+    /* display: block; */
+    /* float: left; */
+    width: 8rem;
     border-radius: 20%;
     clip-path: circle(56.1% at 51% 44%);
 
+}
+
+ .photo {
+    float: left;
+    /* margin-left: 20%; */
+    margin-right: 15px;
+    width: 8rem;
 }
 
 .even {
@@ -137,18 +142,19 @@ section, footer {
 }
 
 .page-links a {
-    margin-top: 20px;
+    margin-top: 2.5rem;
     display: inline-block;
 }
 
-@media screen and (max-width: 600px) {
-    .container{
-        display: block;
+.name {
+    text-align: left;
+}
+
+@media  screen and (max-width: 600px) {
+    section {
+        padding: 3rem 15%;
     }
-    .photo, .profile-photo {
-        /* align-self: center; */
-        /* overflow: hidden; */
-        /* margin-left: 5%; */
-        width: 13rem;
+    .navigation{
+        text-align: center;
     }
 }
