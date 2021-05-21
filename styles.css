@@ -68,7 +68,8 @@ section, footer {
 .profile-photo {
     width: 18rem;
     border-radius: 20%;
-    clip-path: circle(40.0% at 50% 50%);
+    clip-path: circle(56.1% at 51% 44%);
+
 }
 
 .even {
@@ -144,7 +145,10 @@ section, footer {
     .container{
         display: block;
     }
-    .photo {
-        text-align: left;
+    .photo, .profile-photo {
+        /* align-self: center; */
+        /* overflow: hidden; */
+        margin-left: 5%;
+        width: 13rem;
     }
 }
