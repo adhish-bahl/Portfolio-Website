@@ -69,7 +69,6 @@ section, footer {
     width: 18rem;
     border-radius: 20%;
     clip-path: circle(40.0% at 50% 50%);
-    overflow: ;
 }
 
 .even {
@@ -134,4 +133,18 @@ section, footer {
 
 .info {
     overflow: hidden;
+}
+
+.page-links a {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        display: block;
+    }
+    .photo {
+        text-align: left;
+    }
 }
