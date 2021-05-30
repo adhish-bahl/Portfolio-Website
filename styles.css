@@ -77,7 +77,7 @@ section, footer {
     width: 8rem;
 }
 
-.even {
+section:nth-child(odd) {
     background-color: var(--gray-color)
 }
 
