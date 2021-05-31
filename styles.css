@@ -107,6 +107,11 @@ section:nth-child(odd) {
     margin: .8rem .1rem;
 }
 
+.ssicon {
+    width: 40px;
+    padding: 10px;
+}
+
 .hover:hover {
     transform: scale(1.04);
     display: inline-block;
