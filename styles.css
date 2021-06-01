@@ -191,6 +191,7 @@ section:nth-child(odd) {
 
 .imageContainer img {
     width: 25rem;
+    border-radius: 10px;
 }
 
 .upPara {
