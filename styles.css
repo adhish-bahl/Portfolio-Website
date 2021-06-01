@@ -168,15 +168,15 @@ section:nth-child(odd) {
         text-align: center;
     }
 
-    .blogPhoto {
+    img.blogPhoto {
         float: none;
-        width: 18rem;
+        width: 16rem;
         margin: 10px 0px 10px 0px;
-        border-radius: 20px;
+        border-radius: 15px;
     }
 
-    .imageContainer img {
-        width: 20rem;
+    div.imageContainer img {
+        width: 16rem;
         border-radius: 10px;
     }
 
