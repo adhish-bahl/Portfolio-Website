@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <nav class="navigation">
-        <div class="logo"><h1><a href="../index.html">ADHISH'S PORTFOLIO</a></h1></div>
+    <nav class="navigation" id="top">
+        <div class="logo"><h1><a href="../index.html">ADHISH'S BLOG</a></h1></div>
         <ul class="non-bullet">
             <li class="hover page-links"><a href="../index.html" class="link ">HOME</a></li>
             <li class="hover page-links"><a href="../projects.html" class="link">PROJECTS</a></li>
@@ -35,13 +35,16 @@
         <p class="justifyContent">1. Memory Creation Phase: The code is executed from the beginning and only the memory for the global variables and functions are allocated in the main memory. The variables are not assigned values in this particular phase, only the block of memory is assigned to them and they are initialized with "undefined", which is a keyword in JavaScript meaning, no value is initialized to the variable.</p>
         <p class="justifyContent">2. Code Execution Phase: After reading the whole code once during Memory Creation Phase, the code is again executed from the beginning and this time all the operations are performed which have been coded.</p>
     </section>
-
+    
     <section>
         <h3>What is Hoisting?</h3>
         <p class="justifyContent">As already stated above, Hoisting is an exclusive feature of JavasScript which not many programming languages provide. In other languages, you can never use a variable before declaring it and you can never call a function before defining it.</p>
         <p class="justifyContent"> But this is possible in JavaScript. Yes, you can use a variable before defining it and you can call a function before defining it. This is possible because of the two-phase execution of the JavaScript code. After the first phase, the program already knows that the variable or function is defined ahead and hence it does not throw an error. So, if you print a variable value before defining it, it will print "undefined".</p>
+        <div class="imageContainer">
+            <img src="images/TDZ1.png" alt="Memory Creation Zone">
+        </div>
     </section>
-
+    
     <section>
         <h3>Variable Declaration in JavaScript</h3>
         <p class="justifyContent">There are 3 keywords using which we can declare a variable in JavaScript. Those keywords are:</p>
@@ -53,13 +56,26 @@
         <p class="justifyContent">
             I won't be going into the basics of it because the chances of you knowing it already, are quite high and therefore you are here, right? const is the strictest of all in the list, you can not change the value of a const variable after declaration. var is the lenient amongst all, and let sits between both of them.
         </p>
+        <div class="imageContainer">
+            <img src="images/TDZ2.png" alt="Memory Creation Zone">
+        </div>
     </section>
-
+    
     <section>
         <h3>What is Temporal Dead Zone?</h3>
         <p class="justifyContent">Now, if you know all of the above, it won't take much time to understand what Temporal Dead Zone is. Temporal Dead Zone is the period starting when the variable was declared using let or const are assigned their memory block during the first phase of code execution, till the time, the same variable is assigned their actual value during the second phase of the code execution.</p>
-        <p class="justifyContent">During this time the variable is not available for use, it will give a "Reference Error" stating that the variable can not be used before declaring its value.</p>
+        <p class="justifyContent">During this time the variable is not available for use, it will give a "Reference Error" stating that the variable can not be used before initializing its value.</p>
+        <div class="imageContainer">
+            <img src="images/TDZ3.png" alt="Memory Creation Zone" class="bigger">
+        </div>
         <p class="justifyContent">But this is not the same when you declare a variable using the var keyword, the user can use this variable in its Temporal Dead Zone, but the value of the variable will always be "undefined" in its Temporal Dead Zone.</p>
+        <div class="imageContainer">
+            <img src="images/TDZ4.png" alt="Memory Creation Zone">
+        </div>
+        <p class="upPara">
+            <a href="#top"><h4 class="upHeading">Go to Top</h4></a>
+            <a href="#top" ><img class="upArrow" src="images/up.svg" alt="Go to Top""></a>
+        </p>
     </section>
 
     <footer class="footer">

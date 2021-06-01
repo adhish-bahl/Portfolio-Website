@@ -7,6 +7,10 @@
     --dark-green-color: #10B981;
 }
 
+*{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Merriweather', serif;
     margin: 0%;
@@ -176,4 +180,31 @@ section:nth-child(odd) {
 .leftAllign li {
     text-decoration: underline;
     margin-left: 20px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.imageContainer img {
+    width: 25rem;
+}
+
+.upPara {
+    text-align: right;
+    width: max-content;
+    height: max-content;
+    display: inline-block;
+}
+
+.upHeading, .upArrow {
+    display: inline-block;
+    cursor: pointer;
+}
+
+img.bigger {
+    width: 35rem;
 }
