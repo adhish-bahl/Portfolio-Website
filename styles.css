@@ -163,8 +163,25 @@ section:nth-child(odd) {
     section {
         padding: 3rem 15%;
     }
+
     .navigation{
         text-align: center;
+    }
+
+    .blogPhoto {
+        float: none;
+        width: 18rem;
+        margin: 10px 0px 10px 0px;
+        border-radius: 20px;
+    }
+
+    .imageContainer img {
+        width: 20rem;
+        border-radius: 10px;
+    }
+
+    img.bigger {
+        width: 25rem;
     }
 }
 
