@@ -163,3 +163,17 @@ section:nth-child(odd) {
         text-align: center;
     }
 }
+
+/* Blogs */
+.justifyContent {
+    text-align: justify;
+}
+
+.leftAllign {
+    text-align: left;
+}
+
+.leftAllign li {
+    text-decoration: underline;
+    margin-left: 20px;
+}
