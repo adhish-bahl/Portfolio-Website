@@ -209,3 +209,10 @@ section:nth-child(odd) {
 img.bigger {
     width: 35rem;
 }
+
+.blogPhoto {
+    float: right;
+    width: 22rem;
+    margin-left: 20px;
+    border-radius: 20px;
+}
